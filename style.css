@@ -695,7 +695,7 @@ footer .fa-heart {
 /* Responsive Design */
 @media screen and (max-width: 992px) {
     .hero-content {
-        flex-direction: column;
+        flex-direction: column-reverse;
         text-align: center;
     }
     
@@ -800,7 +800,7 @@ footer .fa-heart {
 
 @media screen and (max-width: 480px) {
     .hero-buttons {
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
     }
     
