@@ -85,7 +85,7 @@ const certifications = [
         title: "Virtual Assistant Certification",
         year: "2024",
         description: "Developed proficiency in remote administrative support, including digital communication management, scheduling, and client relationship coordination. Honed skills in time management, professional correspondence, and leveraging productivity tools to execute tasks efficiently in a virtual environment.",
-        image: "virtual assistant.png"
+        image: "Virtual assistant.png"
     },
     {
         id: 4,
@@ -233,3 +233,4 @@ window.addEventListener('scroll', () => {
         navbar.style.boxShadow = '0 4px 6px rgba(0, 0, 0, 0.1)';
     }
 });
+
