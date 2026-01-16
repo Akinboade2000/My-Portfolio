@@ -182,7 +182,7 @@ body {
 /* Home/Hero Section */
 #home {
     padding-top: 120px;
-    background: linear-gradient(to right, white 60%, var(--light-color) 40%);
+    background: linear-gradient(to right, white 100%);
 }
 
 .hero-content {
@@ -815,4 +815,5 @@ footer .fa-heart {
     .modal-body {
         padding: 20px;
     }
+
 }
