@@ -82,7 +82,7 @@ const certifications = [
     },
     {
         id: 3,
-        title: "Virtual Assistant Certification",
+        title: "ALX: Virtual Assistant Certification",
         year: "2024",
         description: "Developed proficiency in remote administrative support, including digital communication management, scheduling, and client relationship coordination. Honed skills in time management, professional correspondence, and leveraging productivity tools to execute tasks efficiently in a virtual environment.",
         image: "Virtual assistant.png"
@@ -233,4 +233,3 @@ window.addEventListener('scroll', () => {
         navbar.style.boxShadow = '0 4px 6px rgba(0, 0, 0, 0.1)';
     }
 });
-
