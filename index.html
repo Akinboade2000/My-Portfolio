@@ -49,6 +49,7 @@
                         </a>
                     </div>
                     <div class="social-links">
+                        <a href="https://www.linkedin.com/in/akinboade-precious-akinkunmi/" target="_blank"><i class="fab fa-linkedin"></i></a>
                         <a href="https://github.com/Akinboade2000" target="_blank"><i class="fab fa-github"></i></a>
                         <a href="mailto:akinboadeprecious@gmail.com"><i class="fas fa-envelope"></i></a>
                         <a href="tel:+2349031676644"><i class="fas fa-phone"></i></a>
@@ -77,7 +78,7 @@
                         I am a graduate of Computer Science with Mathematics at Obafemi Awolowo University with a passion for 
                         web development and data analytics. I have hands-on experience building responsive 
                         websites using JavaScript, React.js, and Flask, and transforming complex data into 
-                        actionable insights with Power BI, Tableau, and Excel.
+                        actionable insights with Power BI, Tableau, SQL and Excel.
                     </p>
                     <p>
                         I combine strong analytical thinking with creative problem-solving, capable of managing 
@@ -88,31 +89,23 @@
                         <h3>Core Skills</h3>
                         <div class="skills-grid">
                             <div class="skill-category">
-                                <h4>Programming</h4>
-                                <p>HTML, CSS, JavaScript, ReactJS, Flask</p>
+                                <h4>Technical Skills</h4>
+                                <p>JavaScript, ReactJS, Flask, Power BI, Tableau, Excel, SQL, PowerPoint, CorelDRAW</p>
                             </div>
                             <div class="skill-category">
-                                <h4>Tools</h4>
-                                <p>Power BI, Tableau, Excel, PowerPoint, CorelDRAW, Lightroom</p>
-                            </div>
-                            <div class="skill-category">
-                                <h4>Methodologies</h4>
-                                <p>SDLC- Agile, Scrum</p>
-                            </div>
-                            <div class="skill-category">
-                                <h4>Soft Skills</h4>
-                                <p>Leadership, Strategic Thinking, Team Collaboration, Problem Solving</p>
+                                <h4>Non-technical Skills</h4>
+                                <p>Leadership, Strategic Thinking, Team Collaboration, Problem Solving, Creative thinking, Optimisitic</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="about-details">
-                    <div class="detail-card">
+                    <!--<div class="detail-card">
                         <h3><i class="fas fa-graduation-cap"></i> Education</h3>
                         <p><strong>B.Sc. Computer Sciences with Mathematics</strong></p>
                         <p>Obafemi Awolowo University, Osun State, Nigeria</p>
                         <p>Second Class Upper Division (2025)</p>
-                    </div>
+                    </div>-->
                     <div class="detail-card">
                         <h3><i class="fas fa-language"></i> Languages</h3>
                         <p><strong>English</strong> - Fluent</p>
@@ -167,6 +160,22 @@
                 </div>
                 
                 <!-- Project 3 -->
+                <div class="project-card" data-project="4">
+                    <div class="project-image">
+                        <img src="Project images 4.png" alt="Client Web Project">
+                    </div>
+                    <div class="project-info">
+                        <h3>Zoe Restaurant</h3>
+                        <p>Restaurant frontend design</p>
+                        <div class="project-tags">
+                            <span>Frontend</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
                 <div class="project-card" data-project="3">
                     <div class="project-image">
                         <img src="Project images 3.png" alt="Tableau Dashboard">
@@ -182,21 +191,6 @@
                     </div>
                 </div>
                 
-                <!-- Project 4 -->
-                <div class="project-card" data-project="4">
-                    <div class="project-image">
-                        <img src="Project images 4.png" alt="Client Web Project">
-                    </div>
-                    <div class="project-info">
-                        <h3>Zoe Restaurant</h3>
-                        <p>Restaurant frontend design</p>
-                        <div class="project-tags">
-                            <span>Frontend</span>
-                            <span>CSS</span>
-                            <span>JavaScript</span>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -236,7 +230,7 @@
                         <i class="fas fa-assistive-listening-systems"></i>
                     </div>
                     <div class="cert-info">
-                        <h3>ALX: Virtual Assistant Certification</h3>
+                        <h3>ALX:Virtual Assistant Certification</h3>
                         <p>2024</p>
                     </div>
                 </div>
@@ -299,10 +293,10 @@
                         </div>
                     </div>
                     <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
+                        <i class="fab fa-linkedin"></i>
                         <div>
-                            <h3>Location</h3>
-                            <p>Nigeria</p>
+                            <h3>LinkedIn</h3>
+                            <p>https://www.linkedin.com/in/akinboade-precious-akinkunmi/</p>
                         </div>
                     </div>
                     <div class="contact-item">
@@ -314,15 +308,17 @@
                     </div>
                 </div>
                 <div class="contact-form">
-                    <form id="contactForm">
+                    <form name="contact" method="POST" data-netlify="true" id="contactForm">
+                        <input type="hidden" name="form-name" value="contact">
+                        
                         <div class="form-group">
-                            <input type="text" id="name" placeholder="Your Name" required>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
                         </div>
                         <div class="form-group">
-                            <input type="email" id="email" placeholder="Your Email" required>
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
                         </div>
                         <div class="form-group">
-                            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary">Send Message</button>
                     </form>
@@ -362,4 +358,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-
