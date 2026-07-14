@@ -65,7 +65,7 @@ const projects = [
         technologies: ["HTML", "CSS", "JavaScript", "Frontend"],
         image: "Project images 4.png",
         category: "web",
-        liveLink: null,
+        liveLink:  "https://akinboade2000.github.io/Restaurant-site/",
         githubLink: "https://github.com/Akinboade2000"
     },
     {
@@ -76,7 +76,7 @@ const projects = [
         technologies: ["JavaScript", "HTML", "CSS", "Web App"],
         image: "Project images 3.png",
         category: "web",
-        liveLink: null,
+        liveLink: "https://akinboade2000.github.io/Complete-Tip-Calculator/",
         githubLink: "https://github.com/Akinboade2000"
     },
     {
