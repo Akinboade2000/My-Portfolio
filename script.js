@@ -32,7 +32,7 @@ const projects = [
         technologies: ["React", "JavaScript", "CSS", "Responsive Design"],
         image: "Project images.png",
         category: "web",
-        liveLink: "https://example.com",
+        liveLink: "https://cradletechs.com/",
         githubLink: "https://github.com/Akinboade2000"
     },
     {
@@ -43,7 +43,7 @@ const projects = [
         technologies: ["JavaScript", "HTML", "CSS", "Responsive Design"],
         image: "Project images 2.png",
         category: "web",
-        liveLink: "https://example.com/3trive",
+        liveLink: "https://akinboade2000.github.io/3Trive-Castles-Ltd/",
         githubLink: "https://github.com/Akinboade2000"
     },
     {
