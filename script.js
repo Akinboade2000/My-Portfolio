@@ -121,42 +121,42 @@ const certifications = [
         title: "HP LIFE: Data Science & Analytics",
         year: "2024",
         description: "Acquired foundational skills in data analysis, learning to interpret datasets and extract actionable insights to inform business decisions. Explored key data science concepts and tools to translate raw data into clear, strategic recommendations.",
-        image: "certificates/hp-life-data-science.jpg"
+        image: "hp_data science.png"
     },
     {
         id: 2,
         title: "HP LIFE: Agile Project Management",
         year: "2024",
         description: "Mastered core Agile methodologies (Scrum, Kanban) to improve project flexibility, team velocity, and iterative delivery of value. Applied techniques for managing dynamic project backlogs, facilitating sprint cycles, and adapting to changing stakeholder requirements.",
-        image: "certificates/hp-life-agile.jpg"
+        image: "hp_agile.png"
     },
     {
         id: 3,
         title: "ALX: Virtual Assistant Certification",
         year: "2024",
         description: "Developed proficiency in remote administrative support, including digital communication management, scheduling, and client relationship coordination. Honed skills in time management, professional correspondence, and leveraging productivity tools to execute tasks efficiently in a virtual environment.",
-        image: "certificates/alx-va.jpg"
+        image: "Virtual assistant.png"
     },
     {
         id: 4,
         title: "CISCO: Data Analytics Essentials",
         year: "2023",
         description: "Built technical competency in the data analysis process, from data collection and cleaning to analysis and visualization using industry-standard tools. Learned to apply statistical concepts and create dashboards to communicate data-driven findings clearly and effectively.",
-        image: "certificates/cisco-data-analytics.jpg"
+        image: "cisco_data analytics.png"
     },
     {
         id: 5,
         title: "CISCO: Introduction to Data Science",
         year: "2023",
         description: "Established a comprehensive understanding of the data science lifecycle, including key methodologies for data exploration, model development, and machine learning basics. Gained hands-on exposure to the tools and programming languages essential for solving real-world problems with data.",
-        image: "certificates/cisco-data-science.jpg"
+        image: "cisco_data science.png"
     },
     {
         id: 6,
         title: "Future Africa Academy: Junior Frontend Web Developer",
         year: "2022",
         description: "Developed dynamic, responsive web applications using core frontend technologies (HTML, CSS, JavaScript) and modern framework (React). Built and deployed interactive user interfaces (UIs) by translating design mockups and wireframes into functional, cross-browser compatible code.",
-        image: "certificates/future-africa-frontend.jpg"
+        image: "Future Africa Academy.png"
     }
 ];
 
